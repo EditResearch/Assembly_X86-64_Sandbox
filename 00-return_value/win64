@@ -1,0 +1,9 @@
+     1                                  
+     2                                  global _start
+     3                                  
+     4                                  _start:
+     5                                      mov rax, 0 ;; return 0 value as output value of the program
+     5          ******************       error: instruction not supported in 16-bit mode
+     6 00000000 C3                          ret
+     7                                  
+     8                                  
